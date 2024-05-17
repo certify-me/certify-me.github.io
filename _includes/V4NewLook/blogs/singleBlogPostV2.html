@@ -55,8 +55,8 @@
 
                             <!-- HERO IMAGE -->
                             <div class="col-md-6">
-                                <div class=" text-center" style="padding-bottom: 20px;">
-                                    <img src="{{page.imageLink}}" alt="{{page.title}}" style="max-height: 275px; ;">
+                                <div class="text-center" style="padding-bottom: 20px;">
+                                    <img src="{{page.imageLink}}" alt="{{page.title}}" style="max-height: 315px;">
                                 </div>
                             </div>
 
@@ -101,7 +101,7 @@
 
             <div class="col-xl-9 mt-35">
                 <div class="post-content">
-
+                    {% if page.abstract %}
                     <!--  SINGLE POST TITLE -->
                     <div class="single-post-title text-left">
 
@@ -120,7 +120,7 @@
                         </div> -->
 
                     </div> <!-- END SINGLE POST TITLE -->
-
+                    {% endif %}
 
 
 
